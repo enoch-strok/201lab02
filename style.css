@@ -12,3 +12,10 @@ ol li {
     color: darkred;
 
 }
+
+.boldHeading {
+
+    font: 800;
+    font: x-large;
+    color: darkmagenta;
+}
