@@ -27,10 +27,10 @@ var questionFiveGoal = "Is Enoch's goal to make a project/task management web ap
 //----------------------------------------------------------------------------//
 //-----------------Responses to Answers (Correct & Incorrect)-----------------// [DONE]
 //----------------------------------------------------------------------------//
-var answerOneBornLocationCorrect = "Yes, that's correct! Enoch was born in Latvia."
+var answerOneBornLocationCorrect = "Correct! Enoch was born in Latvia."
 var answerOneBornLocationIncorrect = "Incorrect! Enoch was born in Latvia, the answer was 'Yes'."
 
-var answerTwoConstructionIndustryYearsCorrect = "Yes, That's correct! Enoch worked in the Construction Industry for 5 years."
+var answerTwoConstructionIndustryYearsCorrect = "Correct! Enoch worked in the Construction Industry for 5 years."
 var answerTwoConstructionIndustryYearsIncorrect = "Incorrect, Enoch worked in the Construction Industry for 5 years. The correct answer was 'Yes'."
 
 var answerThreeWhoPaidForUdemyClassesCorrect = "Correct! Enoch did no pay for this Udemy Classes. His employer paid for it at Enoch's request."
