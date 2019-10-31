@@ -52,7 +52,7 @@ var answerThankYou = "thank you for reading my bio!"
 //-----------------Prompts & Console Logs-----------------// [DONE]
 //--------------------------------------------------------//
 var promptUserName = prompt(questionUserName)
-var promptWelcomeMessage = prompt(welcomeMessage + ", " + promptUserName + "!")
+var promptWelcomeMessage = alert(welcomeMessage + ", " + promptUserName + "!")
 
 //-----------------BornLocation Prompt, If Statment, Console Log [DONE]
 var promptOneBornLocation = prompt(questionOneBornLocation)
