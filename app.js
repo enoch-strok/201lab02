@@ -45,12 +45,14 @@ var answerFourEmployerClientsIncorrect = "Incorrect! Enoch's employers DID becom
 var answerFiveGoalCorrect = "Correct! Enoch's goal is to make a project/task management software in the future."
 var answerFiveGoalIncorrect = "Incorrect! Enoch DOES have a goal to make a project/task management web app."
 
+var welcomeMessage = "Welcome to my bio site"
 var answerThankYou = "thank you for reading my bio!"
 
 //--------------------------------------------------------//
 //-----------------Prompts & Console Logs-----------------// [DONE]
 //--------------------------------------------------------//
 var promptUserName = prompt(questionUserName)
+var promptWelcomeMessage = prompt(welcomeMessage + ", " + promptUserName + "!")
 
 //-----------------BornLocation Prompt, If Statment, Console Log [DONE]
 var promptOneBornLocation = prompt(questionOneBornLocation)
