@@ -1,11 +1,6 @@
 body {
 
-    background-color: chartreuse;
-}
-
-.unorderedList {
-
-    background-color: darkblue;
+    background-color: rgb(125, 134, 106);
 }
 
 ol li {
@@ -17,5 +12,21 @@ ol li {
 
     font: 800;
     font: x-large;
-    color: darkmagenta;
+    color: rgb(255, 255, 255);
+}
+
+.mainBox {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    align-self: center;
+}
+
+.heading {
+
+    margin-top: 50px;
+    text-align: center;
+    text-emphasis-style: bold;
+    font-size: xx-large;
+
 }

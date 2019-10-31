@@ -13,6 +13,9 @@ console.log('proof of life!');
 // console.log("You should check it out!");
 // }
 
+
+
+function appjs() {
 //---------------------------------------------------------------//
 //-----------------Questions To Be Asked To User-----------------// [DONE]
 //---------------------------------------------------------------//
@@ -49,40 +52,41 @@ var promptUserName = prompt(questionUserName)
 
 //-----------------BornLocation Prompt, If Statment, Console Log [DONE]
 var promptOneBornLocation = prompt(questionOneBornLocation)
-if(promptOneBornLocation.toLowerCase() === "yes" || promptOneBornLocation === "y"){
-console.log(answerOneBornLocationCorrect)
+if (promptOneBornLocation.toLowerCase() === "yes" || promptOneBornLocation === "y") {
+    console.log(answerOneBornLocationCorrect)
 } else {
-console.log(answerOneBornLocationIncorrect)
+    console.log(answerOneBornLocationIncorrect)
 }
 
 //-----------------TwoConstructionIndustryYears Prompt, If Statment, Console Log [DONE]
 var promptTwoConstructionIndustryYears = prompt(questionTwoConstructionIndustryYears)
-if(promptTwoConstructionIndustryYears.toLowerCase() === "yes" || promptTwoConstructionIndustryYears.toLowerCase() === "y"){
+if (promptTwoConstructionIndustryYears.toLowerCase() === "yes" || promptTwoConstructionIndustryYears.toLowerCase() === "y") {
     console.log(answerTwoConstructionIndustryYearsCorrect)
-    } else {
-    console.log(answerTwoConstructionIndustryYearsIncorrect)  
-    }
+} else {
+    console.log(answerTwoConstructionIndustryYearsIncorrect)
+}
 
 //-----------------ThreeWhoPaidForUdemyClasses Prompt, If Statment, Console Log [DONE]
 var promptThreeWhoePaidForUdemyClasses = prompt(questionThreeWhoPaidForUdemyClasses)
-if(promptThreeWhoePaidForUdemyClasses.toLowerCase() === "yes" || promptThreeWhoePaidForUdemyClasses.toLowerCase() === "y"){
+if (promptThreeWhoePaidForUdemyClasses.toLowerCase() === "yes" || promptThreeWhoePaidForUdemyClasses.toLowerCase() === "y") {
     console.log(answerThreeWhoPaidForUdemyClassesCorrect)
-    } else {
-    console.log(answerThreeWhoPaidForUdemyClassesIncorrect)  
-    }
+} else {
+    console.log(answerThreeWhoPaidForUdemyClassesIncorrect)
+}
 
 //-----------------FourEmployerClients Prompt, If Statment, Console Log [DONE]
 var promptFourEmployerClients = prompt(questionFourEmployerClients)
-if(promptFourEmployerClients.toLowerCase() === "yes" || promptFourEmployerClients.toLowerCase() === "y"){
+if (promptFourEmployerClients.toLowerCase() === "yes" || promptFourEmployerClients.toLowerCase() === "y") {
     console.log(answerFourEmployerClientsCorrect)
-    } else {
-    console.log(answerFourEmployerClientsIncorrect)  
-    }
+} else {
+    console.log(answerFourEmployerClientsIncorrect)
+}
 
 //-----------------FiveGoal Prompt, If Statment, Console Log [DONE]
 var promptFiveGoal = prompt(questionFiveGoal)
-if(promptTwoConstructionIndustryYears.toLowerCase() === "yes" || promptTwoConstructionIndustryYears.toLowerCase() === "y"){
+if (promptTwoConstructionIndustryYears.toLowerCase() === "yes" || promptTwoConstructionIndustryYears.toLowerCase() === "y") {
     console.log(answerFiveGoalCorrect)
-    } else {
-    console.log(answerFiveGoalIncorrect)  
-    }
+} else {
+    console.log(answerFiveGoalIncorrect)
+}
+}
