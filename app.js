@@ -36,14 +36,16 @@ var answerOneBornLocationIncorrect = "Incorrect! Enoch was born in Latvia, the a
 var answerTwoConstructionIndustryYearsCorrect = "Correct! Enoch worked in the Construction Industry for 5 years."
 var answerTwoConstructionIndustryYearsIncorrect = "Incorrect, Enoch worked in the Construction Industry for 5 years. The correct answer was 'Yes'."
 
-var answerThreeWhoPaidForUdemyClassesCorrect = "Correct! Enoch did no pay for this Udemy Classes. His employer paid for it at Enoch's request."
+var answerThreeWhoPaidForUdemyClassesCorrect = "Correct! Enoch did not pay for this Udemy Classes. His employer paid for it at Enoch's request."
 var answerThreeWhoPaidForUdemyClassesIncorrect = "Incorrect! Enoch did not pay for his own classes. His employer did."
 
 var answerFourEmployerClientsCorrect = "Correct! Enoch's employers hired him as a contractor and became his clients."
 var answerFourEmployerClientsIncorrect = "Incorrect! Enoch's employers DID become his clients."
 
-var answerFiveGoalCorrect = "Correct! Enoch's goal is to make a project/task management software in the future"
+var answerFiveGoalCorrect = "Correct! Enoch's goal is to make a project/task management software in the future."
 var answerFiveGoalIncorrect = "Incorrect! Enoch DOES have a goal to make a project/task management web app."
+
+var answerThankYou = "thank you for reading my bio!"
 
 //--------------------------------------------------------//
 //-----------------Prompts & Console Logs-----------------// [DONE]
@@ -82,7 +84,7 @@ if (promptTwoConstructionIndustryYears.toLowerCase() === "yes" || promptTwoConst
 
 //-----------------ThreeWhoPaidForUdemyClasses Prompt, If Statment, Console Log [DONE]
 var promptThreeWhoePaidForUdemyClasses = prompt(questionThreeWhoPaidForUdemyClasses)
-if (promptThreeWhoePaidForUdemyClasses.toLowerCase() === "yes" || promptThreeWhoePaidForUdemyClasses.toLowerCase() === "y") {
+if (promptThreeWhoePaidForUdemyClasses.toLowerCase() === "no" || promptThreeWhoePaidForUdemyClasses.toLowerCase() === "n") {
     alert(answerThreeWhoPaidForUdemyClassesCorrect)
 } else {
     alert(answerThreeWhoPaidForUdemyClassesIncorrect)
@@ -113,9 +115,9 @@ if (promptFourEmployerClients.toLowerCase() === "yes" || promptFourEmployerClien
 //-----------------FiveGoal Prompt, If Statment, Console Log [DONE]
 var promptFiveGoal = prompt(questionFiveGoal)
 if (promptTwoConstructionIndustryYears.toLowerCase() === "yes" || promptTwoConstructionIndustryYears.toLowerCase() === "y") {
-    alert(answerFiveGoalCorrect)
+    alert(answerFiveGoalCorrect + " " + promptUserName + ", " + answerThankYou)
 } else {
-    alert(answerFiveGoalIncorrect)
+    alert(answerFiveGoalIncorrect +  " " + promptUserName + ", " + answerThankYou)
 }
 
 // if (promptTwoConstructionIndustryYears.toLowerCase() === "yes" || promptTwoConstructionIndustryYears.toLowerCase() === "y") {
